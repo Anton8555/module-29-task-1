@@ -2,5 +2,5 @@
 
 class Talent {
 public:
-    virtual void show_talent() = 0;
+    virtual void show_talent() const = 0;
 };

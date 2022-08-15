@@ -5,5 +5,5 @@
 
 class Counting: virtual public Talent {
 public:
-    virtual void show_talent();
+    virtual void show_talent() const;
 };

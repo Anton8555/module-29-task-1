@@ -12,7 +12,7 @@ class Dog: virtual public Swimming, virtual public Dancing, virtual public Count
     std::vector<Talent*> listTalent;  // skill list
 
 public:
-    Dog(std::string inName);
-
-    virtual void show_talent();
+    Dog(const std::string &inName);
+    ~Dog();
+    virtual void show_talent() const;
 };
